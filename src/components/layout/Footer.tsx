@@ -6,9 +6,9 @@ import { usePreferences } from '../personalization/PreferencesContext';
 export function Footer() {
   const { t } = usePreferences();
   return (
-    <footer className="bg-primary text-white pt-20 pb-10">
+    <footer className="bg-primary text-white pt-12 md:pt-20 pb-8 md:pb-10">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12 mb-10 md:mb-16">
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="inline-block bg-white rounded-xl px-3 py-2">

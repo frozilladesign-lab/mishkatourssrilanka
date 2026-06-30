@@ -40,7 +40,7 @@ export function About() {
       
 
       {/* Story Section */}
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -89,7 +89,7 @@ export function About() {
               transition={{
                 duration: 0.6
               }}
-              className="relative h-[500px] rounded-2xl overflow-hidden shadow-card">
+              className="relative h-64 md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-card">
               
               <img
                 src="/images/tours/pearl-of-sri-lanka/gallery-2.jpg"
@@ -102,7 +102,7 @@ export function About() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-white border-y border-gray-100">
+      <section className="py-12 md:py-20 bg-white border-y border-gray-100">
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center mb-16">
             <h2 className="font-heading text-3xl md:text-4xl text-primary font-semibold mb-4">

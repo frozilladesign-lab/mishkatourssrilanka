@@ -26,7 +26,7 @@ export function TourDetails() {
   if (!tour) {
     return (
       <div className="min-h-[70vh] flex flex-col items-center justify-center pt-32 px-4 text-center bg-light">
-        <h1 className="font-heading text-5xl text-primary mb-4 font-medium">
+        <h1 className="font-heading text-3xl md:text-5xl text-primary mb-4 font-medium">
           Journey Not Found
         </h1>
         <p className="text-dark/70 mb-8 max-w-md text-lg">
@@ -144,7 +144,7 @@ export function TourDetails() {
           <span className="text-accent font-semibold text-sm tracking-widest uppercase mb-4 block">
             Ready to Explore?
           </span>
-          <h2 className="font-heading text-4xl md:text-5xl text-white font-medium mb-6">
+          <h2 className="font-heading text-2xl md:text-4xl text-white font-medium mb-6">
             Begin Your Journey
           </h2>
           <p className="text-white/70 font-light text-lg mb-10">

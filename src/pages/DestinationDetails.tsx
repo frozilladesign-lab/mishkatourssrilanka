@@ -21,7 +21,7 @@ export function DestinationDetails() {
   if (!destination) {
     return (
       <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 pt-32 bg-light">
-        <h1 className="font-heading text-5xl text-primary mb-4 font-medium">
+        <h1 className="font-heading text-3xl md:text-5xl text-primary mb-4 font-medium">
           Destination Not Found
         </h1>
         <p className="text-dark/70 mb-8 text-lg">
@@ -178,7 +178,7 @@ export function DestinationDetails() {
 
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
               <div className="max-w-2xl">
-                <h2 className="font-heading text-4xl md:text-5xl text-primary font-medium mb-4">
+                <h2 className="font-heading text-2xl md:text-4xl text-primary font-medium mb-4">
                   Journeys featuring {destination.name}
                 </h2>
                 <p className="text-lg text-dark/70 font-light">

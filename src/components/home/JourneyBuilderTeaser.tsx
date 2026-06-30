@@ -8,7 +8,7 @@ import { usePreferences } from '../personalization/PreferencesContext';
 export function JourneyBuilderTeaser() {
   const { t } = usePreferences();
   return (
-    <section className="relative py-32 md:py-40 overflow-hidden">
+    <section className="relative py-20 md:py-32 lg:py-40 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Parallax offset={80}>
           <img src="/images/tours/pearl-of-sri-lanka/gallery-1.jpg" alt="Scenic train journey" className="w-full h-full object-cover" />
@@ -19,8 +19,8 @@ export function JourneyBuilderTeaser() {
         <div className="max-w-4xl mx-auto text-center text-white">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
             <Sparkles className="w-16 h-16 mx-auto mb-8 text-accent" />
-            <h2 className="font-heading text-5xl md:text-6xl font-semibold mb-8 leading-tight">{t('builderHeading')}</h2>
-            <p className="text-xl md:text-2xl text-white/95 mb-12 leading-relaxed max-w-3xl mx-auto">{t('builderSub')}</p>
+            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 leading-tight">{t('builderHeading')}</h2>
+            <p className="text-base md:text-xl text-white/95 mb-8 leading-relaxed max-w-3xl mx-auto">{t('builderSub')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               <div className="glass-panel-dark rounded-2xl p-6">
                 <Calendar className="w-10 h-10 text-accent mb-4 mx-auto" />

@@ -49,11 +49,11 @@ export function PageHeader({
             ease: 'easeOut'
           }}>
           
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-white font-semibold leading-tight mb-4 drop-shadow-md">
+          <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight mb-3 drop-shadow-md">
             {title}
           </h1>
           {subtitle &&
-          <p className="text-lg text-white/90 max-w-2xl mx-auto font-light mb-6 drop-shadow-sm">
+          <p className="text-sm md:text-base lg:text-lg text-white/90 max-w-2xl mx-auto font-light mb-4 drop-shadow-sm">
               {subtitle}
             </p>
           }

@@ -38,7 +38,7 @@ export function Hero() {
           <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-medium tracking-wider uppercase mb-6 border border-white/30">
             Local Sri Lanka Travel Service
           </span>
-          <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl text-white font-semibold leading-tight mb-6 text-balance drop-shadow-lg">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-semibold leading-tight mb-6 text-balance drop-shadow-lg">
             Explore the Beauty of Sri Lanka with Mishka Tours
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto font-light text-balance drop-shadow-md">

@@ -29,7 +29,7 @@ export function TourBookingPanel({ price }: Props) {
             <span className="text-accent text-xs font-semibold uppercase tracking-widest block mb-2">
               Starting From
             </span>
-            <div className="font-heading text-5xl font-medium mb-2">
+            <div className="font-heading text-4xl font-medium mb-2">
               {formatPrice(price)}{' '}
               <span className="text-lg font-body font-light text-white/70">
                 / person
