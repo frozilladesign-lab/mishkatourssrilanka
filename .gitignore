@@ -25,3 +25,4 @@ dist-ssr
 
 # Raw source photo archive (355MB, unused by the app — curated copies live in public/images/tours)
 public/Russian tour/
+.vercel

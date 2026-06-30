@@ -26,7 +26,24 @@
       "Bash(git add *)",
       "Bash(git reset *)",
       "Bash(awk '{$1=\"\"; print}')",
-      "Bash(xargs du -ch)"
+      "Bash(xargs du -ch)",
+      "Bash(git config *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)",
+      "Bash(security find-internet-password *)",
+      "Bash(brew install *)",
+      "Bash(npx vercel *)",
+      "Bash(vercel whoami *)",
+      "Bash(vercel teams *)",
+      "Bash(vercel --yes --scope frozilladesign-1812s-projects)",
+      "Bash(vercel domains *)",
+      "Bash(dig mishkatourssrilanka.com A +short)",
+      "Bash(dig www.mishkatourssrilanka.com A +short)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://mishkatourssrilanka.com)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://www.mishkatourssrilanka.com)"
     ]
   }
 }
