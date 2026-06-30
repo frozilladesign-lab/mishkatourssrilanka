@@ -27,7 +27,7 @@ export function MoodExplorer() {
           <h2 className="font-heading text-2xl md:text-3xl lg:text-display-sm font-semibold text-primary mb-6">{t('moodHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('moodSub')}</p>
         </motion.div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-6">
           {moods.map((mood, index) => {
             const Icon = mood.icon;
             return (
