@@ -18,7 +18,7 @@ export const TravellerStories = memo(function TravellerStories() {
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-20">
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">{t('storiesTag')}</span>
-          <h2 className="font-heading text-display-sm font-bold text-primary mb-6">{t('storiesHeading')}</h2>
+          <h2 className="font-heading text-display-sm font-semibold text-primary mb-6">{t('storiesHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('storiesSub')}</p>
         </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

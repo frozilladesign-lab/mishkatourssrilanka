@@ -151,7 +151,7 @@ export function TripPlanner() {
                       <DollarSignIcon className="w-5 h-5 text-accent" />{' '}
                       Estimated Budget (per person)
                     </span>
-                    <span className="font-heading text-xl text-primary font-bold">
+                    <span className="font-heading text-xl text-primary font-semibold">
                       ${budget}
                     </span>
                   </label>
@@ -200,7 +200,7 @@ export function TripPlanner() {
                   </h3>
                   <ul className="space-y-6">
                     <li className="flex gap-4">
-                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-bold text-sm">
+                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-semibold text-sm">
                         1
                       </div>
                       <div>
@@ -211,7 +211,7 @@ export function TripPlanner() {
                       </div>
                     </li>
                     <li className="flex gap-4">
-                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-bold text-sm">
+                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-semibold text-sm">
                         2
                       </div>
                       <div>
@@ -223,7 +223,7 @@ export function TripPlanner() {
                       </div>
                     </li>
                     <li className="flex gap-4">
-                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-bold text-sm">
+                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 font-semibold text-sm">
                         3
                       </div>
                       <div>
@@ -286,11 +286,11 @@ export function TripPlanner() {
                     key={idx}
                     className="relative flex items-start gap-8 group">
                     
-                        <div className="flex items-center justify-center w-12 h-12 rounded-full border-4 border-white bg-primary text-white font-bold text-sm shrink-0 shadow-sm z-10 mt-1 transition-transform group-hover:scale-110">
+                        <div className="flex items-center justify-center w-12 h-12 rounded-full border-4 border-white bg-primary text-white font-semibold text-sm shrink-0 shadow-sm z-10 mt-1 transition-transform group-hover:scale-110">
                           {idx + 1}
                         </div>
                         <div className="bg-light/50 p-8 rounded-2xl flex-grow border border-transparent group-hover:border-gray-200 transition-colors">
-                          <div className="text-xs font-bold text-accent uppercase tracking-widest mb-2">
+                          <div className="text-xs font-semibold text-accent uppercase tracking-widest mb-2">
                             Day {day.day}
                           </div>
                           <h4 className="font-heading text-2xl font-medium text-primary mb-3">

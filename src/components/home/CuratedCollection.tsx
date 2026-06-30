@@ -13,7 +13,7 @@ export function CuratedCollection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
             <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-6 block">{t('curatedTag')}</span>
-            <h2 className="font-heading text-5xl md:text-6xl font-bold mb-8 leading-tight">{t('curatedHeading')}</h2>
+            <h2 className="font-heading text-5xl md:text-6xl font-semibold mb-8 leading-tight">{t('curatedHeading')}</h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">{t('curatedP1')}</p>
             <p className="text-lg text-white/80 mb-10 leading-relaxed">{t('curatedP2')}</p>
             <div className="flex flex-col sm:flex-row gap-4">

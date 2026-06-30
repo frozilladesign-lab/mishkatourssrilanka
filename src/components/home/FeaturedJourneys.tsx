@@ -32,7 +32,7 @@ export function FeaturedJourneys() {
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">
             Signature Experiences
           </span>
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold text-primary mb-4">
             Featured Journeys
           </h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">
@@ -82,14 +82,14 @@ export function FeaturedJourneys() {
                         {featured[0].itinerary.length} Stops
                       </span>
                     </div>
-                    <h3 className="font-heading text-2xl md:text-3xl font-bold mb-2 group-hover:text-accent transition-colors">
+                    <h3 className="font-heading text-2xl md:text-3xl font-semibold mb-2 group-hover:text-accent transition-colors">
                       {featured[0].title}
                     </h3>
                     <p className="text-white/90 mb-3 line-clamp-2 text-sm">
                       {featured[0].shortDescription}
                     </p>
                     <div className="flex items-center justify-between">
-                      <span className="text-xl font-bold text-accent">
+                      <span className="text-xl font-semibold text-accent">
                         {formatPrice(featured[0].price)}
                       </span>
                       <span className="flex items-center gap-2 text-white group-hover:gap-3 transition-all text-sm">
@@ -142,11 +142,11 @@ export function FeaturedJourneys() {
                         {tour.itinerary.length} Stops
                       </span>
                     </div>
-                    <h3 className="font-heading text-lg font-bold mb-1.5 group-hover:text-accent transition-colors line-clamp-1">
+                    <h3 className="font-heading text-lg font-semibold mb-1.5 group-hover:text-accent transition-colors line-clamp-1">
                       {tour.title}
                     </h3>
                     <div className="flex items-center justify-between">
-                      <span className="text-lg font-bold text-accent">
+                      <span className="text-lg font-semibold text-accent">
                         {formatPrice(tour.price)}
                       </span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

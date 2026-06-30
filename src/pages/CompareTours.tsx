@@ -105,7 +105,7 @@ export function CompareTours() {
                       <h3 className="font-heading text-lg font-medium text-primary mb-2 line-clamp-2">
                         {tour.title}
                       </h3>
-                      <div className="font-heading text-2xl font-bold text-secondary">
+                      <div className="font-heading text-2xl font-semibold text-secondary">
                         {formatPrice(tour.price)}{' '}
                         <span className="text-sm font-body font-normal text-dark/60">
                           / pp

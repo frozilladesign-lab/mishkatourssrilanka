@@ -43,7 +43,8 @@
       "Bash(dig mishkatourssrilanka.com A +short)",
       "Bash(dig www.mishkatourssrilanka.com A +short)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://mishkatourssrilanka.com)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://www.mishkatourssrilanka.com)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://www.mishkatourssrilanka.com)",
+      "Bash(xargs sed -i '' 's/font-bold/font-semibold/g')"
     ]
   }
 }

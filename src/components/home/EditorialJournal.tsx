@@ -19,7 +19,7 @@ export function EditorialJournal() {
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">{t('journalTag')}</span>
-          <h2 className="font-heading text-display-sm font-bold text-primary mb-6">{t('journalHeading')}</h2>
+          <h2 className="font-heading text-display-sm font-semibold text-primary mb-6">{t('journalHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('journalSub')}</p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -35,7 +35,7 @@ export function EditorialJournal() {
                       <span className="text-accent font-semibold tracking-luxury uppercase">{t(article.categoryKey)}</span>
                       <span className="text-muted flex items-center gap-1"><Clock className="w-4 h-4" />{t(article.timeKey)}</span>
                     </div>
-                    <h3 className="font-heading text-2xl font-bold text-primary mb-3 group-hover:text-accent transition-colors">{t(article.titleKey)}</h3>
+                    <h3 className="font-heading text-2xl font-semibold text-primary mb-3 group-hover:text-accent transition-colors">{t(article.titleKey)}</h3>
                     <p className="text-muted mb-4 leading-relaxed">{t(article.excerptKey)}</p>
                     <span className="inline-flex items-center gap-2 text-primary font-semibold group-hover:gap-3 transition-all">
                       {t('journalReadArticle')} <ArrowRight className="w-5 h-5" />

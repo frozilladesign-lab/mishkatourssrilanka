@@ -330,7 +330,7 @@ export function Tours() {
             <div className="flex items-center justify-between mt-8 pt-6 border-t border-gray-100">
               <div className="text-dark/60 text-sm">
                 Showing{' '}
-                <span className="text-primary font-bold">
+                <span className="text-primary font-semibold">
                   {filteredTours.length}
                 </span>{' '}
                 curated journeys
@@ -361,7 +361,7 @@ export function Tours() {
         {/* Mobile Filter Toggle */}
         <div className="lg:hidden flex items-center justify-between mb-8 bg-white p-4 rounded-xl shadow-sm border border-gray-100">
           <div className="text-dark/80 font-medium text-sm">
-            <span className="text-primary font-bold">
+            <span className="text-primary font-semibold">
               {filteredTours.length}
             </span>{' '}
             journeys

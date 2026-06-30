@@ -119,7 +119,7 @@ export function TourCard({ tour }: TourCardProps) {
         <div className="flex items-center justify-between pt-4 border-t border-gray-100 mt-auto">
           <div>
             <span className="text-xs text-dark/60 block mb-0.5">From</span>
-            <div className="font-heading text-xl font-bold text-primary">
+            <div className="font-heading text-xl font-semibold text-primary">
               {formatPrice(tour.price)}{' '}
               <span className="text-sm font-body font-normal text-dark/60">
                 / pp

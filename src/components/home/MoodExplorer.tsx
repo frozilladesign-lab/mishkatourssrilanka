@@ -24,7 +24,7 @@ export function MoodExplorer() {
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">{t('moodTag')}</span>
-          <h2 className="font-heading text-display-sm font-bold text-primary mb-6">{t('moodHeading')}</h2>
+          <h2 className="font-heading text-display-sm font-semibold text-primary mb-6">{t('moodHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('moodSub')}</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -36,7 +36,7 @@ export function MoodExplorer() {
                   <div className={`absolute inset-0 bg-gradient-to-br ${mood.color} opacity-90 group-hover:opacity-100 transition-opacity`}></div>
                   <div className="relative h-full flex flex-col items-center justify-center p-6 text-white">
                     <Icon className="w-12 h-12 md:w-16 md:h-16 mb-4 group-hover:scale-110 transition-transform duration-300" />
-                    <h3 className="font-heading text-xl md:text-2xl font-bold text-center">{t(mood.labelKey)}</h3>
+                    <h3 className="font-heading text-xl md:text-2xl font-semibold text-center">{t(mood.labelKey)}</h3>
                   </div>
                   <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300"></div>
                 </Link>

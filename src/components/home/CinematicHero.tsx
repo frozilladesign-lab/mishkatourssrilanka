@@ -27,7 +27,7 @@ export function CinematicHero() {
             className="inline-block py-2 px-4 rounded-full glass-panel-dark text-white text-sm font-medium tracking-luxury uppercase mb-8">
             {t('heroTag')}
           </motion.span>
-          <h1 className="font-heading text-display font-bold text-white leading-[1.1] mb-8 text-balance tracking-tight">
+          <h1 className="font-heading text-display font-semibold text-white leading-[1.1] mb-8 text-balance tracking-tight">
             {t('heroHeading')}
           </h1>
           <p className="text-xl md:text-2xl text-white/95 mb-12 max-w-3xl mx-auto font-light leading-relaxed text-balance">
@@ -46,7 +46,7 @@ export function CinematicHero() {
             <div className="flex items-center gap-3 text-white">
               <Users className="w-6 h-6 text-accent" />
               <div className="text-left">
-                <div className="text-2xl font-bold font-heading"><Counter end={40} suffix="+" /></div>
+                <div className="text-2xl font-semibold font-heading"><Counter end={40} suffix="+" /></div>
                 <div className="text-sm text-white/80">{t('heroCountriesServed')}</div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export function CinematicHero() {
             <div className="flex items-center gap-3 text-white">
               <Star className="w-6 h-6 text-accent" />
               <div className="text-left">
-                <div className="text-2xl font-bold font-heading"><Counter end={5000} suffix="+" /></div>
+                <div className="text-2xl font-semibold font-heading"><Counter end={5000} suffix="+" /></div>
                 <div className="text-sm text-white/80">{t('heroFiveStarReviews')}</div>
               </div>
             </div>
@@ -62,7 +62,7 @@ export function CinematicHero() {
             <div className="flex items-center gap-3 text-white">
               <Award className="w-6 h-6 text-accent" />
               <div className="text-left">
-                <div className="text-2xl font-bold font-heading"><Counter end={15} suffix="+" /></div>
+                <div className="text-2xl font-semibold font-heading"><Counter end={15} suffix="+" /></div>
                 <div className="text-sm text-white/80">{t('heroYearsExcellence')}</div>
               </div>
             </div>

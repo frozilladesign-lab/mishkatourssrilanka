@@ -20,7 +20,7 @@ export function SeasonalInspirations() {
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">{t('seasonTag')}</span>
-          <h2 className="font-heading text-display-sm font-bold text-primary mb-6">{t('seasonHeading')}</h2>
+          <h2 className="font-heading text-display-sm font-semibold text-primary mb-6">{t('seasonHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('seasonSub')}</p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -40,7 +40,7 @@ export function SeasonalInspirations() {
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
                     <p className="text-accent text-sm font-semibold mb-2 tracking-luxury uppercase">{t(season.periodKey)}</p>
-                    <h3 className="font-heading text-3xl font-bold mb-3">{t(season.titleKey)}</h3>
+                    <h3 className="font-heading text-3xl font-semibold mb-3">{t(season.titleKey)}</h3>
                     <p className="text-white/90 leading-relaxed">{t(season.descKey)}</p>
                   </div>
                 </div>

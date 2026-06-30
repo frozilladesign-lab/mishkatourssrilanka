@@ -19,7 +19,7 @@ export function SignatureExperiences() {
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
           <span className="text-accent font-semibold tracking-luxury uppercase text-sm mb-4 block">{t('sigTag')}</span>
-          <h2 className="font-heading text-display-sm font-bold text-primary mb-6">{t('sigHeading')}</h2>
+          <h2 className="font-heading text-display-sm font-semibold text-primary mb-6">{t('sigHeading')}</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">{t('sigSub')}</p>
         </motion.div>
         <div className="relative h-[500px] md:h-[600px] mb-8">
@@ -32,7 +32,7 @@ export function SignatureExperiences() {
                   <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/40 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <p className="text-accent text-sm font-semibold mb-2 tracking-luxury uppercase">{t(exp.subtitleKey)}</p>
-                    <h3 className="font-heading text-3xl font-bold">{t(exp.titleKey)}</h3>
+                    <h3 className="font-heading text-3xl font-semibold">{t(exp.titleKey)}</h3>
                   </div>
                 </div>
               </Link>

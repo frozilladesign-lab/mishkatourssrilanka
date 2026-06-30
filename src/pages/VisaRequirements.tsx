@@ -85,7 +85,7 @@ export function VisaRequirements() {
               }}
               className="bg-white rounded-2xl p-6 shadow-card border border-gray-100 text-center relative">
               
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-7 h-7 rounded-full bg-accent text-white text-sm font-bold flex items-center justify-center">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-7 h-7 rounded-full bg-accent text-white text-sm font-semibold flex items-center justify-center">
                   {i + 1}
                 </div>
                 <div className="w-14 h-14 mx-auto bg-secondary/10 text-secondary rounded-full flex items-center justify-center mb-4 mt-2">

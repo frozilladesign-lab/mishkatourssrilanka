@@ -49,7 +49,7 @@ export function WelcomeModal() {
             <span className="inline-block py-1 px-3 rounded-full bg-secondary/10 text-secondary text-xs font-semibold tracking-luxury uppercase mb-4">
               Mishka Tours Sri Lanka
             </span>
-            <h2 className="font-heading text-2xl md:text-3xl font-bold text-primary mb-2">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-2">
               {t('welcomeTitle')}
             </h2>
             <p className="text-dark/70 text-sm">{t('welcomeSubtitle')}</p>
@@ -71,7 +71,7 @@ export function WelcomeModal() {
                       : 'border-gray-200 text-dark/70 hover:border-gray-300'
                   }`}
                 >
-                  <span className="text-lg font-bold">{c.symbol}</span>
+                  <span className="text-lg font-semibold">{c.symbol}</span>
                   <span className="text-xs font-medium">{c.code}</span>
                 </button>
               ))}

@@ -88,7 +88,7 @@ export function Offers() {
                   <div className="absolute top-4 left-4 px-3 py-1 bg-accent text-white text-xs font-semibold rounded-full flex items-center gap-1">
                     <TagIcon className="w-3 h-3" /> {o.tag}
                   </div>
-                  <div className="absolute bottom-4 left-4 font-heading text-3xl text-white font-bold drop-shadow">
+                  <div className="absolute bottom-4 left-4 font-heading text-3xl text-white font-semibold drop-shadow">
                     {o.discount}
                   </div>
                 </div>
