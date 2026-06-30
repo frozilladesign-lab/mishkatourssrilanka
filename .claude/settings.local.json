@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(disown)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:5175/)",
+      "mcp__Claude_in_Chrome__navigate",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(ls /Users/sachinrs/Downloads/tv/public/ 2>/dev/null && ls /Users/sachinrs/Downloads/*.png /Users/sachinrs/Downloads/*.jpg /Users/sachinrs/Downloads/*.PNG /Users/sachinrs/Downloads/*.JPG 2>/dev/null | head -10)",
+      "Bash(find /var/folders /private/tmp /Users/sachinrs/Library/Caches -name \"*.png\" -newer /Users/sachinrs/Downloads/tv/package.json 2>/dev/null | grep -v node_modules | head -20)",
+      "Bash(find /Users/sachinrs -name \"*.png\" -newer /Users/sachinrs/Downloads/tv/package.json 2>/dev/null | grep -v node_modules | head -20)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/images/tours/pearl-of-sri-lanka/hero.jpg)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/images/tours/whale-watching/hero.avif)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/tours)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/logo.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight ./misty-mountains/hero.jpg)",
+      "Bash(grep -rln \"toLocaleString\\(\\)\\\\|\\\\\\\\\\\\$\\\\{.*price\" /Users/sachinrs/Downloads/tv/src --include=\"*.tsx\")",
+      "Bash(curl -s -o /dev/null -w \"Home: %{http_code}\\\\n\" http://localhost:5175/)",
+      "Bash(curl -s -o /dev/null -w \"Tours: %{http_code}\\\\n\" http://localhost:5175/tours)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git reset *)",
+      "Bash(awk '{$1=\"\"; print}')",
+      "Bash(xargs du -ch)"
+    ]
+  }
+}
