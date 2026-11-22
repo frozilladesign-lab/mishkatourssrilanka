@@ -280,7 +280,7 @@ export function Header() {
               className="w-full py-3.5 bg-accent text-white rounded-full font-semibold text-center block hover:bg-accent/90 transition-colors">
               {t('planMyTrip')}
             </Link>
-            <a href="https://wa.me/94XXXXXXXXX" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/94766980431" target="_blank" rel="noopener noreferrer"
               className="w-full py-3 bg-[#25D366] text-white rounded-full font-semibold text-center block hover:bg-[#1ebe5d] transition-colors text-sm">
               WhatsApp
             </a>

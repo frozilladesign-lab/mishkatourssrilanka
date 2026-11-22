@@ -149,12 +149,14 @@ export function TourBookingPanel({ price }: Props) {
                 Request Proposal
               </button>
 
-              <button
-              type="button"
+              <a
+              href="https://wa.me/94766980431"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full py-4 bg-white text-[#25D366] border border-[#25D366]/30 rounded-xl font-medium hover:bg-[#25D366]/5 transition-colors flex items-center justify-center gap-2">
               
                 <MessageCircleIcon className="w-5 h-5" /> Chat on WhatsApp
-              </button>
+              </a>
             </form>
           }
         </div>

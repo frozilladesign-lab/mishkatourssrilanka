@@ -79,11 +79,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-white/80">
                 <PhoneIcon className="w-5 h-5 text-accent shrink-0" />
-                <span>+94 XX XXX XXXX</span>
+                <a href="tel:+94766980431" className="hover:text-accent transition-colors">+94 76 698 0431</a>
               </li>
               <li className="flex items-center gap-3 text-white/80">
                 <MailIcon className="w-5 h-5 text-accent shrink-0" />
-                <span>info@mishkatours.com</span>
+                <a href="mailto:toursmishka@gmail.com" className="hover:text-accent transition-colors break-all">toursmishka@gmail.com</a>
               </li>
             </ul>
             <form className="space-y-3" onSubmit={(e) => e.preventDefault()}>

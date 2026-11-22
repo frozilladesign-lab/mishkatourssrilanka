@@ -80,7 +80,9 @@ export function Contact() {
                     <h4 className="font-semibold text-primary mb-1">
                       Phone / WhatsApp
                     </h4>
-                    <p className="text-sm text-dark/70">+94 XX XXX XXXX</p>
+                    <a href="tel:+94766980431" className="text-sm text-dark/70 hover:text-secondary">
+                      +94 76 698 0431
+                    </a>
                   </div>
                 </div>
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4">
@@ -89,7 +91,9 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Email</h4>
-                    <p className="text-sm text-dark/70">info@mishkatours.com</p>
+                    <a href="mailto:toursmishka@gmail.com" className="text-sm text-dark/70 hover:text-secondary break-all">
+                      toursmishka@gmail.com
+                    </a>
                   </div>
                 </div>
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4">
@@ -284,7 +288,7 @@ export function Contact() {
                     </button>
 
                     <a
-                      href="https://wa.me/94XXXXXXXXX"
+                      href="https://wa.me/94766980431"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full py-4 bg-[#25D366] text-white rounded-xl font-semibold hover:bg-[#1ebe5d] transition-colors flex items-center justify-center gap-2">
